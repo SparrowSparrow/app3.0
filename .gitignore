@@ -19,3 +19,7 @@ config/database.yml
 
 .idea/app.iml
 .idea/runConfigurations/Development__app.xml
+
+.idea/runConfigurations/1.xml
+
+.idea/workspace.xml

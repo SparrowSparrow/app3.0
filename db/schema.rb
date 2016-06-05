@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20160527095825) do
 
-  create_table "universities", force: :cascade do |t|
+  create_table "study", force: :cascade do |t|
     t.string   "name",       limit: 255
     t.string   "contact",    limit: 255
     t.string   "address",    limit: 255
