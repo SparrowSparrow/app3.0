@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Ruby</ID>
+  <OriginalElement>User</OriginalElement>
+  <nodes>
+    <node x="1296.6685961174273" y="289.0">ActiveRecord::Scoping::Named</node>
+    <node x="1134.4185961174273" y="576.0">ActiveRecord::Associations</node>
+    <node x="1855.9185961174273" y="289.0">ActiveRecord::Reflection</node>
+    <node x="4727.325" y="576.0">ActiveRecord::Enum</node>
+    <node x="2120.3003787878815" y="0.0">ActiveSupport::Concern</node>
+    <node x="4536.075" y="576.0">ActiveRecord::ConnectionHandling</node>
+    <node x="4111.825" y="576.0">ActiveRecord::QueryCache::ClassMethods</node>
+    <node x="3098.918596117427" y="378.0">ActiveModel::Validations::HelperMethods</node>
+    <node x="4015.075" y="289.0">ActiveRecord::AttributeDecorators</node>
+    <node x="0.0" y="289.0">ActiveRecord::CounterCache</node>
+    <node x="1392.6685961174273" y="289.0">ActiveRecord::Scoping::Default</node>
+    <node x="3245.918596117427" y="378.0">ActiveModel::Callbacks</node>
+    <node x="718.7499999999998" y="576.0">ActiveRecord::AttributeMethods</node>
+    <node x="1733.9185961174273" y="289.0">ActiveRecord::Timestamp</node>
+    <node x="1648.4185961174273" y="576.0">ActiveRecord::Callbacks</node>
+    <node x="3459.884134311869" y="289.0">ActiveModel::Naming</node>
+    <node x="3624.7174676452023" y="576.0">ActiveRecord::Serialization</node>
+    <node x="3742.575" y="289.0">ActiveRecord::ReadonlyAttributes</node>
+    <node x="4832.825" y="576.0">ActiveRecord::Locking::Pessimistic</node>
+    <node x="725.2499999999998" y="289.0">ActiveRecord::AttributeMethods::BeforeTypeCast</node>
+    <node x="1970.9185961174273" y="289.0">ActiveRecord::Persistence</node>
+    <node x="3984.575" y="576.0">ActiveRecord::Querying</node>
+    <node x="4192.075" y="289.0">ActiveRecord::Aggregations</node>
+    <node x="4888.575" y="289.0">ActiveModel::SecurePassword</node>
+    <node x="1619.9185961174273" y="467.0">ActiveModel::Validations::Callbacks</node>
+    <node x="4991.384134311869" y="576.0">ActiveRecord::Explain</node>
+    <node x="2646.7341343118687" y="576.0">ActiveRecord::AttributeAssignment</node>
+    <node x="2913.918596117427" y="289.0">ActiveRecord::AutosaveAssociation</node>
+    <node x="874.2499999999998" y="289.0">ActiveRecord::AttributeMethods::PrimaryKey</node>
+    <node x="5040.575" y="289.0">ActiveRecord::Sanitization</node>
+    <node x="3405.0935961174273" y="467.0">ActiveRecord::Translation</node>
+    <node x="2475.918596117427" y="289.0">ActiveRecord::NestedAttributes</node>
+    <node x="596.25" y="289.0">ActiveRecord::AttributeMethods::Serialization</node>
+    <node x="2216.918596117427" y="289.0">ActiveRecord::Integration</node>
+    <node x="3379.3435961174273" y="378.0">ActiveModel::Translation</node>
+    <node x="3829.075" y="576.0">ActiveRecord::Delegation::DelegateCache</node>
+    <node x="1173.9185961174273" y="467.0">ActiveSupport::Autoload</node>
+    <node x="3658.575" y="467.0">ActiveModel::Serializers::JSON</node>
+    <node x="3724.325" y="914.0">User</node>
+    <node x="1591.4185961174273" y="378.0">ActiveSupport::Callbacks</node>
+    <node x="2093.918596117427" y="289.0">ActiveModel::Conversion</node>
+    <node x="995.2499999999998" y="289.0">ActiveRecord::AttributeMethods::Write</node>
+    <node x="5226.075" y="576.0">ActiveRecord::DynamicMatchers</node>
+    <node x="140.0" y="289.0">ActiveRecord::AttributeMethods::TimeZoneConversion</node>
+    <node x="430.25" y="378.0">ActiveModel::Dirty</node>
+    <node x="3176.881782670454" y="576.0">ActiveRecord::Validations</node>
+    <node x="1490.6685961174273" y="289.0">ActiveSupport::DescendantsTracker</node>
+    <node x="3266.25" y="467.0">ActiveModel::Validations</node>
+    <node x="3724.325" y="835.0">ActiveRecord::Base</node>
+    <node x="4675.575" y="289.0">ActiveRecord::Store</node>
+    <node x="3934.075" y="289.0">ActiveRecord::Core</node>
+    <node x="2337.918596117427" y="289.0">ActiveRecord::ModelSchema</node>
+    <node x="451.25" y="467.0">ActiveRecord::AttributeMethods::Dirty</node>
+    <node x="3544.8852627840943" y="467.0">ActiveModel::Serializers::Xml</node>
+    <node x="4341.575" y="289.0">ActiveRecord::Transactions</node>
+    <node x="4759.575" y="289.0">ActiveRecord::NoTouching</node>
+    <node x="514.25" y="289.0">ActiveRecord::AttributeMethods::Read</node>
+    <node x="2798.918596117427" y="289.0">ActiveRecord::Attributes</node>
+    <node x="4474.575" y="289.0">ActiveRecord::Inheritance</node>
+    <node x="1080.2499999999998" y="289.0">ActiveRecord::AttributeMethods::Query</node>
+    <node x="3573.8435961174273" y="378.0">ActiveModel::Serialization</node>
+    <node x="5166.575" y="289.0">ActiveRecord::Locking::Optimistic</node>
+    <node x="325.0" y="289.0">ActiveModel::AttributeMethods</node>
+    <node x="4260.575" y="576.0">ActiveSupport::Benchmarkable</node>
+    <node x="2555.918596117427" y="467.0">ActiveModel::ForbiddenAttributesProtection</node>
+    <node x="1293.3162444760126" y="576.0">ActiveRecord::Scoping</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ActiveModel::Translation" target="ActiveModel::Naming">
+      <point x="0.0" y="-14.5" />
+      <point x="3430.8435961174273" y="358.0" />
+      <point x="3484.184134311869" y="358.0" />
+      <point x="-16.199999999999818" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods::Serialization" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="650.75" y="109.0" />
+      <point x="2132.4337121212147" y="109.0" />
+      <point x="-29.866666666666788" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Serializers::Xml" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="3572.8852627840943" y="447.0" />
+      <point x="3563.3435961174273" y="447.0" />
+      <point x="3563.3435961174273" y="179.0" />
+      <point x="2179.1003787878817" y="179.0" />
+      <point x="16.800000000000182" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Dirty" target="ActiveSupport::Concern">
+      <point x="15.75" y="-14.5" />
+      <point x="477.5" y="79.0" />
+      <point x="2126.833712121215" y="79.0" />
+      <point x="-35.4666666666667" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Validations" target="ActiveModel::Validations">
+      <point x="25.5" y="-14.5" />
+      <point x="3253.381782670454" y="556.0" />
+      <point x="3317.25" y="556.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::DynamicMatchers">
+      <point x="29.25" y="-14.5" />
+      <point x="3783.575" y="815.0" />
+      <point x="5298.075" y="815.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveModel::SecurePassword">
+      <point x="23.25" y="-14.5" />
+      <point x="3777.575" y="775.0" />
+      <point x="4954.575" y="775.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods" target="ActiveRecord::AttributeMethods::TimeZoneConversion">
+      <point x="-64.5454545454545" y="-14.5" />
+      <point x="725.2045454545453" y="556.0" />
+      <point x="222.5" y="556.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods" target="ActiveRecord::AttributeMethods::Dirty">
+      <point x="-38.72727272727275" y="-14.5" />
+      <point x="751.022727272727" y="536.0" />
+      <point x="482.75" y="536.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Scoping" target="ActiveRecord::Scoping::Named">
+      <point x="10.25" y="-14.5" />
+      <point x="1344.5662444760126" y="556.0" />
+      <point x="1334.6685961174273" y="556.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::AutosaveAssociation">
+      <point x="-6.75" y="-14.5" />
+      <point x="3747.575" y="665.0" />
+      <point x="2995.918596117427" y="665.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::CounterCache" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="60.0" y="49.0" />
+      <point x="2121.233712121215" y="49.0" />
+      <point x="-41.066666666666606" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::AttributeMethods" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="396.0" y="69.0" />
+      <point x="2124.967045454548" y="69.0" />
+      <point x="-37.333333333333485" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Serialization" target="ActiveModel::Serializers::JSON">
+      <point x="0.0" y="-14.5" />
+      <point x="3679.2174676452023" y="556.0" />
+      <point x="3690.075" y="556.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Scoping::Named" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="1334.6685961174273" y="189.0" />
+      <point x="2147.367045454548" y="189.0" />
+      <point x="-14.933333333333394" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods::Write" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="1027.2499999999998" y="139.0" />
+      <point x="2138.0337121212146" y="139.0" />
+      <point x="-24.26666666666688" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::QueryCache::ClassMethods">
+      <point x="8.25" y="-14.5" />
+      <point x="3762.575" y="675.0" />
+      <point x="4171.825" y="675.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Reflection">
+      <point x="-18.75" y="-14.5" />
+      <point x="3735.575" y="745.0" />
+      <point x="1903.4185961174273" y="745.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Store">
+      <point x="17.25" y="-14.5" />
+      <point x="3771.575" y="735.0" />
+      <point x="4707.575" y="735.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Aggregations" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="4250.075" y="119.0" />
+      <point x="2190.3003787878815" y="119.0" />
+      <point x="28.0" y="14.5" />
+    </edge>
+    <edge source="User" target="ActiveRecord::Base">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::NestedAttributes">
+      <point x="-11.25" y="-14.5" />
+      <point x="3743.075" y="695.0" />
+      <point x="2545.418596117427" y="695.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Dirty" target="ActiveModel::AttributeMethods">
+      <point x="-15.75" y="-14.5" />
+      <point x="446.0" y="358.0" />
+      <point x="431.5" y="358.0" />
+      <point x="35.5" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Aggregations">
+      <point x="9.75" y="-14.5" />
+      <point x="3764.075" y="685.0" />
+      <point x="4250.075" y="685.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::ReadonlyAttributes">
+      <point x="0.75" y="-14.5" />
+      <point x="3755.075" y="625.0" />
+      <point x="3818.575" y="625.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Serialization" target="ActiveSupport::Concern">
+      <point x="36.333333333333485" y="-14.5" />
+      <point x="3715.5508009785353" y="556.0" />
+      <point x="3732.075" y="556.0" />
+      <point x="3732.075" y="159.0" />
+      <point x="2182.833712121215" y="159.0" />
+      <point x="20.533333333333303" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Conversion" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="2145.418596117427" y="269.0" />
+      <point x="2162.3003787878815" y="269.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::AttributeAssignment">
+      <point x="-9.75" y="-14.5" />
+      <point x="3744.575" y="685.0" />
+      <point x="2728.2341343118687" y="685.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Locking::Optimistic">
+      <point x="27.75" y="-14.5" />
+      <point x="3782.075" y="805.0" />
+      <point x="5215.575" y="805.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Serializers::JSON" target="ActiveSupport::Concern">
+      <point x="21.0" y="-14.5" />
+      <point x="3711.075" y="447.0" />
+      <point x="3715.6416666666664" y="447.0" />
+      <point x="3715.6416666666664" y="169.0" />
+      <point x="2180.967045454548" y="169.0" />
+      <point x="18.666666666666515" y="14.5" />
+    </edge>
+    <edge source="ActiveSupport::Callbacks" target="ActiveSupport::Concern">
+      <point x="23.25" y="-14.5" />
+      <point x="1661.1685961174273" y="209.0" />
+      <point x="2151.1003787878817" y="209.0" />
+      <point x="-11.199999999999818" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Locking::Pessimistic">
+      <point x="21.75" y="-14.5" />
+      <point x="3776.075" y="765.0" />
+      <point x="4884.325" y="765.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods" target="ActiveRecord::AttributeMethods::Write">
+      <point x="25.818181818181756" y="-14.5" />
+      <point x="815.5681818181815" y="526.0" />
+      <point x="1027.2499999999998" y="526.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeAssignment" target="ActiveSupport::Concern">
+      <point x="40.75" y="-14.5" />
+      <point x="2768.9841343118687" y="556.0" />
+      <point x="2788.418596117427" y="556.0" />
+      <point x="2788.418596117427" y="229.0" />
+      <point x="2169.767045454548" y="229.0" />
+      <point x="7.466666666666697" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Validations::Callbacks" target="ActiveSupport::Concern">
+      <point x="23.25" y="-14.5" />
+      <point x="1689.6685961174273" y="447.0" />
+      <point x="1694.9185961174273" y="447.0" />
+      <point x="1694.9185961174273" y="219.0" />
+      <point x="2152.967045454548" y="219.0" />
+      <point x="-9.333333333333485" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Transactions">
+      <point x="12.75" y="-14.5" />
+      <point x="3767.075" y="705.0" />
+      <point x="4398.075" y="705.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods::PrimaryKey" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="924.7499999999998" y="129.0" />
+      <point x="2136.1670454545483" y="129.0" />
+      <point x="-26.133333333333212" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Scoping" target="ActiveRecord::Scoping::Default">
+      <point x="30.75" y="-14.5" />
+      <point x="1365.0662444760126" y="556.0" />
+      <point x="1431.6685961174273" y="556.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods::Dirty" target="ActiveModel::Dirty">
+      <point x="-15.75" y="-14.5" />
+      <point x="467.0" y="447.0" />
+      <point x="461.75" y="447.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Locking::Optimistic" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="5215.575" y="49.0" />
+      <point x="2203.367045454548" y="49.0" />
+      <point x="41.066666666666606" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Transactions" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="4398.075" y="109.0" />
+      <point x="2192.1670454545483" y="109.0" />
+      <point x="29.866666666666788" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::CounterCache">
+      <point x="-29.25" y="-14.5" />
+      <point x="3725.075" y="815.0" />
+      <point x="60.0" y="815.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Translation" target="ActiveModel::Translation">
+      <point x="0.0" y="-14.5" />
+      <point x="25.75" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeAssignment" target="ActiveModel::ForbiddenAttributesProtection">
+      <point x="-40.75" y="-14.5" />
+      <point x="2687.4841343118687" y="556.0" />
+      <point x="2666.918596117427" y="556.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Validations" target="ActiveModel::Callbacks">
+      <point x="-8.5" y="-14.5" />
+      <point x="3308.75" y="427.0" />
+      <point x="3292.418596117427" y="427.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods::BeforeTypeCast" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="789.7499999999998" y="119.0" />
+      <point x="2134.3003787878815" y="119.0" />
+      <point x="-28.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Integration" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="2267.418596117427" y="259.0" />
+      <point x="2164.1670454545483" y="259.0" />
+      <point x="1.866666666666788" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AutosaveAssociation" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="2995.918596117427" y="209.0" />
+      <point x="2173.5003787878813" y="209.0" />
+      <point x="11.199999999999818" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Store" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="4707.575" y="89.0" />
+      <point x="2195.9003787878814" y="89.0" />
+      <point x="33.59999999999991" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::ModelSchema">
+      <point x="-12.75" y="-14.5" />
+      <point x="3741.575" y="705.0" />
+      <point x="2396.918596117427" y="705.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Validations">
+      <point x="-5.25" y="-14.5" />
+      <point x="3749.075" y="655.0" />
+      <point x="3227.881782670454" y="655.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Serialization">
+      <point x="-0.75" y="-14.5" />
+      <point x="3753.575" y="625.0" />
+      <point x="3679.2174676452023" y="625.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Reflection" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="1903.4185961174273" y="249.0" />
+      <point x="2158.5670454545484" y="249.0" />
+      <point x="-3.733333333333121" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods" target="ActiveRecord::AttributeMethods::Read">
+      <point x="-25.818181818181756" y="-14.5" />
+      <point x="763.931818181818" y="526.0" />
+      <point x="545.25" y="526.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Persistence" target="ActiveSupport::Concern">
+      <point x="-2.2737367544323206E-13" y="-14.5" />
+      <point x="2022.4185961174271" y="259.0" />
+      <point x="2160.4337121212147" y="259.0" />
+      <point x="-1.866666666666788" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::AttributeMethods">
+      <point x="-27.75" y="-14.5" />
+      <point x="3726.575" y="805.0" />
+      <point x="789.7499999999998" y="805.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods" target="ActiveRecord::AttributeMethods::BeforeTypeCast">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::NestedAttributes" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="2545.418596117427" y="239.0" />
+      <point x="2167.9003787878814" y="239.0" />
+      <point x="5.599999999999909" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::NoTouching" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="4814.075" y="79.0" />
+      <point x="2197.767045454548" y="79.0" />
+      <point x="35.4666666666667" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Enum">
+      <point x="18.75" y="-14.5" />
+      <point x="3773.075" y="745.0" />
+      <point x="4760.825" y="745.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Associations" target="ActiveSupport::Concern">
+      <point x="-28.25" y="-14.5" />
+      <point x="1163.4185961174273" y="169.0" />
+      <point x="2143.633712121215" y="169.0" />
+      <point x="-18.666666666666515" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Validations" target="ActiveModel::Translation">
+      <point x="42.5" y="-14.5" />
+      <point x="3359.75" y="447.0" />
+      <point x="3405.0935961174273" y="447.0" />
+      <point x="-25.75" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Core" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="3964.575" y="139.0" />
+      <point x="2186.5670454545484" y="139.0" />
+      <point x="24.26666666666688" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Serializers::Xml" target="ActiveModel::Naming">
+      <point x="-18.666666666666515" y="-14.5" />
+      <point x="3554.2185961174273" y="447.0" />
+      <point x="3544.0935961174273" y="447.0" />
+      <point x="3544.0935961174273" y="348.0" />
+      <point x="3516.5841343118686" y="348.0" />
+      <point x="16.199999999999818" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Serializers::Xml" target="ActiveModel::Serialization">
+      <point x="18.666666666666515" y="-14.5" />
+      <point x="3591.5519294507603" y="447.0" />
+      <point x="3601.0935961174273" y="447.0" />
+      <point x="-27.25" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Explain">
+      <point x="24.75" y="-14.5" />
+      <point x="3779.075" y="785.0" />
+      <point x="5030.384134311869" y="785.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Core">
+      <point x="3.75" y="-14.5" />
+      <point x="3758.075" y="645.0" />
+      <point x="3964.575" y="645.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods" target="ActiveModel::AttributeMethods">
+      <point x="-51.63636363636374" y="-14.5" />
+      <point x="738.113636363636" y="546.0" />
+      <point x="360.5" y="546.0" />
+      <point x="-35.5" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Persistence">
+      <point x="-17.25" y="-14.5" />
+      <point x="3737.075" y="735.0" />
+      <point x="2022.4185961174273" y="735.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Validations" target="ActiveSupport::Concern">
+      <point x="8.5" y="-14.5" />
+      <point x="3325.75" y="427.0" />
+      <point x="3349.418596117427" y="427.0" />
+      <point x="3349.418596117427" y="189.0" />
+      <point x="2177.233712121215" y="189.0" />
+      <point x="14.933333333333394" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods::Dirty" target="ActiveSupport::Concern">
+      <point x="15.75" y="-14.5" />
+      <point x="498.5" y="447.0" />
+      <point x="503.75" y="447.0" />
+      <point x="503.75" y="89.0" />
+      <point x="2128.7003787878816" y="89.0" />
+      <point x="-33.59999999999991" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::ReadonlyAttributes" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="3818.575" y="149.0" />
+      <point x="2184.7003787878816" y="149.0" />
+      <point x="22.40000000000009" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods" target="ActiveRecord::AttributeMethods::PrimaryKey">
+      <point x="12.909090909090764" y="-14.5" />
+      <point x="802.6590909090905" y="516.0" />
+      <point x="924.7499999999998" y="516.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::SecurePassword" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="4954.575" y="69.0" />
+      <point x="2199.633712121215" y="69.0" />
+      <point x="37.333333333333485" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Validations" target="ActiveModel::Validations::HelperMethods">
+      <point x="-25.5" y="-14.5" />
+      <point x="3291.75" y="437.0" />
+      <point x="3194.168596117427" y="437.0" />
+      <point x="31.75" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::ConnectionHandling">
+      <point x="15.75" y="-14.5" />
+      <point x="3770.075" y="725.0" />
+      <point x="4616.575" y="725.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Attributes">
+      <point x="-8.25" y="-14.5" />
+      <point x="3746.075" y="675.0" />
+      <point x="2846.418596117427" y="675.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::ModelSchema" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="2396.918596117427" y="249.0" />
+      <point x="2166.0337121212146" y="249.0" />
+      <point x="3.733333333333121" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Serializers::JSON" target="ActiveModel::Serialization">
+      <point x="-21.0" y="-14.5" />
+      <point x="3669.075" y="447.0" />
+      <point x="3655.5935961174273" y="447.0" />
+      <point x="27.25" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Sanitization">
+      <point x="26.25" y="-14.5" />
+      <point x="3780.575" y="795.0" />
+      <point x="5093.575" y="795.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Callbacks" target="ActiveSupport::Concern">
+      <point x="23.25" y="-14.5" />
+      <point x="1718.1685961174273" y="556.0" />
+      <point x="1723.4185961174273" y="556.0" />
+      <point x="1723.4185961174273" y="229.0" />
+      <point x="2154.833712121215" y="229.0" />
+      <point x="-7.466666666666697" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Serializers::JSON" target="ActiveModel::Naming">
+      <point x="0.0" y="-14.5" />
+      <point x="3690.075" y="447.0" />
+      <point x="3693.3435961174273" y="447.0" />
+      <point x="3693.3435961174273" y="338.0" />
+      <point x="3532.784134311869" y="338.0" />
+      <point x="32.40000000000009" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Integration">
+      <point x="-14.25" y="-14.5" />
+      <point x="3740.075" y="715.0" />
+      <point x="2267.418596117427" y="715.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods" target="ActiveSupport::Concern">
+      <point x="38.72727272727275" y="-14.5" />
+      <point x="828.4772727272725" y="536.0" />
+      <point x="1069.7499999999998" y="536.0" />
+      <point x="1069.7499999999998" y="149.0" />
+      <point x="2139.9003787878814" y="149.0" />
+      <point x="-22.40000000000009" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Sanitization" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="5093.575" y="59.0" />
+      <point x="2201.5003787878813" y="59.0" />
+      <point x="39.19999999999982" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods::Query" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="1114.7499999999998" y="159.0" />
+      <point x="2141.767045454548" y="159.0" />
+      <point x="-20.533333333333303" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Scoping" target="ActiveSupport::Concern">
+      <point x="-10.25" y="-14.5" />
+      <point x="1324.0662444760126" y="546.0" />
+      <point x="1286.1685961174273" y="546.0" />
+      <point x="1286.1685961174273" y="179.0" />
+      <point x="2145.5003787878813" y="179.0" />
+      <point x="-16.800000000000182" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Serialization" target="ActiveModel::Serializers::Xml">
+      <point x="-36.333333333333485" y="-14.5" />
+      <point x="3642.8841343118684" y="556.0" />
+      <point x="3572.8852627840943" y="556.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods" target="ActiveSupport::Autoload">
+      <point x="64.5454545454545" y="-14.5" />
+      <point x="854.2954545454543" y="556.0" />
+      <point x="1188.7519294507606" y="556.0" />
+      <point x="-29.666666666666742" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Scoping::Default" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="1431.6685961174273" y="199.0" />
+      <point x="2149.233712121215" y="199.0" />
+      <point x="-13.066666666666606" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Callbacks">
+      <point x="-21.75" y="-14.5" />
+      <point x="3732.575" y="765.0" />
+      <point x="1694.9185961174273" y="765.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Validations::Callbacks" target="ActiveSupport::Callbacks">
+      <point x="-23.25" y="-14.5" />
+      <point x="1643.1685961174273" y="447.0" />
+      <point x="1637.9185961174273" y="447.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods::Read" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="545.25" y="99.0" />
+      <point x="2130.5670454545484" y="99.0" />
+      <point x="-31.73333333333312" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods" target="ActiveRecord::AttributeMethods::Query">
+      <point x="51.63636363636374" y="-14.5" />
+      <point x="841.3863636363635" y="546.0" />
+      <point x="1114.7499999999998" y="546.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Scoping" target="ActiveSupport::Autoload">
+      <point x="-30.75" y="-14.5" />
+      <point x="1303.5662444760126" y="556.0" />
+      <point x="1248.085262784094" y="556.0" />
+      <point x="29.666666666666742" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Delegation::DelegateCache">
+      <point x="2.25" y="-14.5" />
+      <point x="3756.575" y="635.0" />
+      <point x="3891.575" y="635.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Inheritance">
+      <point x="14.25" y="-14.5" />
+      <point x="3768.575" y="715.0" />
+      <point x="4525.575" y="715.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Validations" target="ActiveSupport::Concern">
+      <point x="-25.5" y="-14.5" />
+      <point x="3202.381782670454" y="556.0" />
+      <point x="3088.418596117427" y="556.0" />
+      <point x="3088.418596117427" y="199.0" />
+      <point x="2175.367045454548" y="199.0" />
+      <point x="13.066666666666606" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Callbacks" target="ActiveModel::Validations::Callbacks">
+      <point x="-23.25" y="-14.5" />
+      <point x="1671.6685961174273" y="556.0" />
+      <point x="1666.4185961174273" y="556.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Associations">
+      <point x="-26.25" y="-14.5" />
+      <point x="3728.075" y="795.0" />
+      <point x="1190.9185961174273" y="795.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveSupport::Callbacks" target="ActiveSupport::DescendantsTracker">
+      <point x="-23.25" y="-14.5" />
+      <point x="1614.6685961174273" y="358.0" />
+      <point x="1610.6685961174273" y="358.0" />
+      <point x="40.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveSupport::DescendantsTracker">
+      <point x="-23.25" y="-14.5" />
+      <point x="3731.075" y="775.0" />
+      <point x="1530.6685961174273" y="775.0" />
+      <point x="-40.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveModel::Naming">
+      <point x="-2.25" y="-14.5" />
+      <point x="3752.075" y="635.0" />
+      <point x="3518.5935961174273" y="635.0" />
+      <point x="3518.5935961174273" y="358.0" />
+      <point x="3500.384134311869" y="358.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Scoping">
+      <point x="-24.75" y="-14.5" />
+      <point x="3729.575" y="785.0" />
+      <point x="1334.3162444760126" y="785.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Attributes" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="2846.418596117427" y="219.0" />
+      <point x="2171.633712121215" y="219.0" />
+      <point x="9.333333333333485" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Timestamp">
+      <point x="-20.25" y="-14.5" />
+      <point x="3734.075" y="755.0" />
+      <point x="1784.9185961174273" y="755.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeDecorators" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="4093.575" y="129.0" />
+      <point x="2188.4337121212147" y="129.0" />
+      <point x="26.133333333333212" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods" target="ActiveRecord::AttributeMethods::Serialization">
+      <point x="-12.909090909090764" y="-14.5" />
+      <point x="776.840909090909" y="516.0" />
+      <point x="650.7499999999998" y="516.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::AttributeMethods::TimeZoneConversion" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="222.5" y="59.0" />
+      <point x="2123.1003787878817" y="59.0" />
+      <point x="-39.19999999999982" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::AttributeDecorators">
+      <point x="6.75" y="-14.5" />
+      <point x="3761.075" y="665.0" />
+      <point x="4093.575" y="665.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Inheritance" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="4525.575" y="99.0" />
+      <point x="2194.0337121212146" y="99.0" />
+      <point x="31.73333333333312" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Timestamp" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="1784.9185961174273" y="239.0" />
+      <point x="2156.7003787878816" y="239.0" />
+      <point x="-5.599999999999909" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveSupport::Benchmarkable">
+      <point x="11.25" y="-14.5" />
+      <point x="3765.575" y="695.0" />
+      <point x="4324.075" y="695.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveModel::Validations" target="ActiveModel::Naming">
+      <point x="25.5" y="-14.5" />
+      <point x="3342.75" y="437.0" />
+      <point x="3368.1749999999997" y="437.0" />
+      <point x="3368.1749999999997" y="348.0" />
+      <point x="3467.9841343118687" y="348.0" />
+      <point x="-32.40000000000009" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Associations" target="ActiveSupport::Autoload">
+      <point x="28.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Querying">
+      <point x="5.25" y="-14.5" />
+      <point x="3759.575" y="655.0" />
+      <point x="4029.075" y="655.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::NoTouching">
+      <point x="20.25" y="-14.5" />
+      <point x="3774.575" y="755.0" />
+      <point x="4814.075" y="755.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveModel::Conversion">
+      <point x="-15.75" y="-14.5" />
+      <point x="3738.575" y="725.0" />
+      <point x="2145.418596117427" y="725.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveRecord::Base" target="ActiveRecord::Translation">
+      <point x="-3.75" y="-14.5" />
+      <point x="3750.575" y="645.0" />
+      <point x="3456.5935961174273" y="645.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.17900204043776666" x="2769.5" y="392.2476683937823" />
+  <SelectedNodes>
+    <node>User</node>
+  </SelectedNodes>
+  <Categories />
+</Diagram>
+

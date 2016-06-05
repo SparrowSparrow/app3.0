@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Ruby</ID>
+  <OriginalElement>UsersController</OriginalElement>
+  <nodes>
+    <node x="128.25" y="158.0">AbstractController::Base</node>
+    <node x="125.25" y="237.0">ActionController::Metal</node>
+    <node x="150.25" y="474.0">UsersController</node>
+    <node x="0.0" y="79.0">ActiveSupport::DescendantsTracker</node>
+    <node x="180.0" y="79.0">ActiveSupport::Configurable</node>
+    <node x="128.25" y="316.0">ActionController::Base</node>
+    <node x="208.25" y="316.0">SessionsHelper</node>
+    <node x="131.75" y="395.0">ApplicationController</node>
+    <node x="194.5" y="0.0">ActiveSupport::Concern</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="UsersController" target="ApplicationController">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="AbstractController::Base" target="ActiveSupport::Configurable">
+      <point x="15.0" y="-14.5" />
+      <point x="173.25" y="133.0" />
+      <point x="236.5" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActionController::Metal" target="AbstractController::Base">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="AbstractController::Base" target="ActiveSupport::DescendantsTracker">
+      <point x="-15.0" y="-14.5" />
+      <point x="143.25" y="133.0" />
+      <point x="80.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ApplicationController" target="SessionsHelper">
+      <point x="41.75" y="-14.5" />
+      <point x="257.0" y="370.0" />
+      <point x="272.25" y="370.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ApplicationController" target="ActionController::Base">
+      <point x="-41.75" y="-14.5" />
+      <point x="173.5" y="370.0" />
+      <point x="158.25" y="370.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActiveSupport::Configurable" target="ActiveSupport::Concern">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ActionController::Base" target="ActionController::Metal">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8948374760994264" x="189.20405982905982" y="211.5" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+

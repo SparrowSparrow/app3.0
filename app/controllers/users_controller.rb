@@ -17,6 +17,10 @@ class UsersController < ApplicationController
 
     # @users = User.paginate(page: params[:page])
     @users = User.paginate(page: params[:page], per_page: 10)
+
+    #paginate(:page => params[:page], :per_page => 30)
+
+
   end
 
 

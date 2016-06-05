@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Univercity of Cambrige
+  contact: +44 1223 337733, enquiries@ice.cam.ac.uk
+  address: The Old Schools, Trinity Lane, Cambridge CB2 1TN
+  students: 19938
+  price: £17511 в рік
+
+two:
+  name: Univ1
+  contact: contact1
+  address: address1
+  students: 10
+  price: 100$

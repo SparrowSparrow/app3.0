@@ -4,7 +4,10 @@
     <nav>
       <ul class="nav navbar-nav navbar-left">
         <li><%= link_to "CSE", root_path, id: "logo" %> </li>
-        <li><%= link_to "Study", "#" %></li>
+
+        <% if logged_in? %>
+          <li><%= link_to "Study", study_path %></li>
+        <% end %>
       </ul>
     </nav>
 

@@ -24,3 +24,11 @@ module App
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
+
+
+# ENV['ENV'] ||= 'development'
+#
+# db_conf = YAML::load(File.open(File.join(APP_PATH,'config','database.yml')))
+#
+# DB1_CONF = db_conf["db1"][ENV['ENV']]
+# DB2_CONF = db_conf["db2"][ENV['ENV']]
