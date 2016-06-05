@@ -1,0 +1,22 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password: 1111
+  socket: /tmp/mysql.sock
+
+development:
+  <<: *default
+  database: CSE_development
+
+test:
+  database: CSE_test
+  host: localhost
+  <<: *default
+
+
+production:
+  database: CSE_production
+  host: localhost
+  <<: *default

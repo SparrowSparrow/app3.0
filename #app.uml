@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>RailsDependency</ID>
+  <OriginalElement>#app</OriginalElement>
+  <nodes>
+    <node x="0.0" y="250.0">University</node>
+    <node x="0.0" y="0.0">User</node>
+    <node x="267.0" y="250.0">Study</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="182.5" y="175.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Association fields</Category>
+    <Category>Migration fields</Category>
+  </Categories>
+</Diagram>
+

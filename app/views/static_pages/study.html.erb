@@ -1,0 +1,47 @@
+<div class="container">
+  <div class="col-lg-4 col-md-4" >
+    <div class="list-group list-model">
+      <li class="list-group-item {{university.ID_university == activeUniversity.ID_university ? 'list-active' : 'list-hover'}}"
+          <% @university %>
+          <!--ng-repeat="university in universities"-->
+          <!--ng-click="changeActive(university.ID_university)">-->
+        <div class="pull-right" ng-if="admin">
+          <a class="glyphicon glyphicon-pencil" href="/#/edit-university/{{university.ID_university}}"></a>
+          <a class="glyphicon glyphicon-remove" ng-click="remove(university.ID_university)"></a>
+        </div>
+        <i>  </i>
+        <i>({{university.NumberOfSubjects}})</i>
+      </li>
+    </div>
+    <button type="button" class="btn btn-primary" ng-click="downloadReport()" >Download All Report</button>
+    <a type="button" class="btn btn-success" href="/#/add-university" ng-if="admin">Add university</a>
+  </div>
+  <div class="col-lg-8 col-md-8">
+    <div class="pull-right">
+      <i>Students</i>: <br/>
+      <i>Average price</i>: {{activeUniversity['Average price']}}
+    </div>
+    <h2>{{activeUniversity.University}}</h2>
+    <p><i>Contacts</i>: {{activeUniversity.Contacts}}</p>
+    <p><i>Address</i>: {{activeUniversity.Address}}</p>
+    <button type="button" class="btn btn-primary" ng-click="downloadReportById(activeUniversity.ID_university)" >Download Report</button>
+    <div class="col-lg-6 col-md-6">
+      <h3>Area:</h3>
+      <div class="list-group list-model">
+        <li class="list-group-item {{group.Group == activeGroupy ? 'list-active' : 'list-hover'}}"
+            ng-repeat="group in activeGroupsCount"
+            ng-click="activeGroupSet(group.Group)">
+          <i>{{group.Group}}</i> - {{group['Full name']}} ({{group.NumberOfSubject}})
+        </li>
+      </div>
+    </div>
+    <div class="col-lg-5 col-md-5">
+      <h3 ng-if="activeGroup">Courses:</h3>
+      <div class="list-group list-model" ng-if="activeGroup">
+        <li class="list-group-item" ng-repeat="subject in adctiveSubjects" ng-if="activeGroup == subject.Group">
+          <i>{{subject.Group}}</i> - {{subject.Subject}}
+        </li>
+      </div>
+    </div>
+  </div>
+</div>
