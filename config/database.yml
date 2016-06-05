@@ -14,7 +14,7 @@ default: &default
   encoding: utf8
   pool: 5
   username: root
-  password: 1111
+  password:
   socket: /tmp/mysql.sock
 
 
@@ -89,7 +89,7 @@ production:
   <<: *default
   database: cse_development
   username: root
-  password: 1111
+  password:
 
 #db2:
 #  development:

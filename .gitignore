@@ -11,3 +11,11 @@
 /log/*
 !/log/.keep
 /tmp
+
+.idea/workspace.xml
+config/database.yml
+
+*.iml
+
+.idea/app.iml
+.idea/runConfigurations/Development__app.xml
