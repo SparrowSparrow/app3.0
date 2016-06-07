@@ -11,13 +11,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160527095825) do
+ActiveRecord::Schema.define(version: 20160605173947) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "connection_university_courses", force: :cascade do |t|
+    t.integer  "id_course"
+    t.integer  "id_university"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  create_table "edu_programs", force: :cascade do |t|
+    t.string   "area",       limit: 255
+    t.string   "course",     limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
 
   create_table "universities", force: :cascade do |t|
     t.string   "name",       limit: 255
     t.string   "contact",    limit: 255
     t.string   "address",    limit: 255
-    t.integer  "students",   limit: 4
+    t.integer  "students"
     t.string   "price",      limit: 255
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
@@ -34,6 +51,7 @@ ActiveRecord::Schema.define(version: 20160527095825) do
     t.string   "activation_digest", limit: 255
     t.boolean  "activated",                     default: false
     t.datetime "activated_at"
+    t.string   "reset_digest",      limit: 255
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree

@@ -1,22 +1,18 @@
 class StudyController < ApplicationController
 
-
-    def area_show
-
+    def index
+      @universities = University.all
+      @edu_programs = EduProgram.joins(:connection_university_courses).where(:connection_university_courses => {:id_university => params[:id] || 1})
+      @current_university = University.find(params[:id] || 1)
+      # debugger
     end
 
-    def university_show
-      @university = University.find(params[:id])
+    def show_university
+      @universities = University.find(params[:id])
     end
 
-    def university_new
-      @university = University.new
+    def new_university
+      @universities = University.new
     end
-
-    def university_list
-      @university = University.all
-    end
-
-    
 
 end

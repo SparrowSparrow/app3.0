@@ -1,0 +1,20 @@
+<% provide(:title, 'Study') %>
+<h3 class="h3-university">Universities</h3>
+<ul class="universities">
+  <%= render @universities %>
+</ul>
+<div class="info-universities">
+  <h2>Information</h2>
+  Назва: <%= @current_university.name %><br/>
+  Контанкти: <%= @current_university.contact %><br/>
+  Ціна: <%= @current_university.price %><br/>
+  Кількість студентів: <%= @current_university.students %><br/>
+  Адресса: <%= @current_university.address %><br/>
+</div>
+<div class="courses-universities">
+  <h2>Courses</h2>
+  <ul class="list-courses-universities">
+    <%= render @edu_programs %>
+  </ul>
+</div>
+

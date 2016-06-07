@@ -1,5 +1,6 @@
 <div class="center jumbotron">
   <h1>Computer Science in Europe</h1>
-
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  <% if logged_in? %>
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  <% end %>
 </div>
