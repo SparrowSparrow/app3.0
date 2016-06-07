@@ -13,15 +13,17 @@
 
 ActiveRecord::Schema.define(version: 20160605173947) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "connection_university_courses", force: :cascade do |t|
-    t.integer  "id_course",     limit: 4
-    t.integer  "id_university", limit: 4
-    t.datetime "created_at",              null: false
-    t.datetime "updated_at",              null: false
+    t.integer  "id_course"
+    t.integer  "id_university"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
   create_table "edu_programs", force: :cascade do |t|
-    t.integer  "id_course",  limit: 4
     t.string   "area",       limit: 255
     t.string   "course",     limit: 255
     t.datetime "created_at",             null: false
@@ -32,7 +34,7 @@ ActiveRecord::Schema.define(version: 20160605173947) do
     t.string   "name",       limit: 255
     t.string   "contact",    limit: 255
     t.string   "address",    limit: 255
-    t.integer  "students",   limit: 4
+    t.integer  "students"
     t.string   "price",      limit: 255
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false

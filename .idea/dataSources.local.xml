@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - app_development@localhost" uuid="b4d681d3-c5ad-4e6c-ad66-024a00eca5ac">
+      <secret-storage>master_key</secret-storage>
+      <schema-pattern>app_development.*</schema-pattern>
+      <default-schemas>app_development.*</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - app_test@localhost" uuid="604015dd-12ac-473e-bdad-f9f0de026868">
+      <secret-storage>master_key</secret-storage>
+      <schema-pattern>app_test.*</schema-pattern>
+      <default-schemas>app_test.*</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - cse_development@localhost" uuid="4664c6bc-4f33-4730-817a-f90f7de663af">
+      <secret-storage>master_key</secret-storage>
+      <schema-pattern>cse_development.*</schema-pattern>
+      <default-schemas>cse_development.*</default-schemas>
+    </data-source>
+  </component>
+</project>
