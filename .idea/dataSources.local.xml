@@ -21,13 +21,17 @@
       <default-schemas>app_test.*</default-schemas>
     </data-source>
     <data-source name="Rails app: production" uuid="8693fcce-b292-4903-9f0b-7782821fd63b">
-      <user-password>dfe7df9edfdddff9df98dfd0dfcfdffedff5dffbdf99dff9dfc4df9edf9fdfdfdfc0dfe8dfc3dfe8dfd0dfe5dfc7dfe1df99dff3</user-password>
+      <user-password>dfcfdff0dfcedf9fdff2dfccdfd3dfe2dfc5dfd8dfe3dfe4dfccdfdfdfc6dfe5df93dfd3dffddfe3dfe7dfd3dff0dffadffddfc0</user-password>
       <schema-pattern>cse_development.*</schema-pattern>
       <default-schemas>cse_development.*</default-schemas>
     </data-source>
     <data-source name="Rails app: development" uuid="751b8087-ea25-4755-ab83-7953991d49d0">
       <schema-pattern>app_development.*</schema-pattern>
       <default-schemas>app_development.*</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - dcerlok8j9ggsq@ec2-54-228-219-2.eu-west-1.compute.amazonaws.com" uuid="d1054175-89a1-4fc8-8c88-6bee47a4e8da">
+      <secret-storage>master_key</secret-storage>
+      <user-name>doffdgmkhlmhpp</user-name>
     </data-source>
   </component>
 </project>

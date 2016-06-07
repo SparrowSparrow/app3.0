@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1424969674">
+  <component name="DataSourceManagerImpl" format="xml" hash="37888750">
     <data-source source="LOCAL" name="PostgreSQL - app_development@localhost" uuid="b4d681d3-c5ad-4e6c-ad66-024a00eca5ac">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
@@ -44,7 +44,7 @@
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:d6nuqu9qsche6a</jdbc-url>
+      <jdbc-url>jdbc:postgresql:dcerlok8j9ggsq</jdbc-url>
       <explain-plan-config>
         <provider>com.intellij.database.plan.ExplainPlanProvider.NullExplainPlanProvider</provider>
       </explain-plan-config>
@@ -75,6 +75,16 @@
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-9.4-1201.jdbc4.jar</url>
         </library>
       </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - dcerlok8j9ggsq@ec2-54-228-219-2.eu-west-1.compute.amazonaws.com" uuid="d1054175-89a1-4fc8-8c88-6bee47a4e8da">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-228-219-2.eu-west-1.compute.amazonaws.com:5432/dcerlok8j9ggsq</jdbc-url>
+      <driver-properties>
+        <property name="ssl" value="true" />
+        <property name="sslfactory" value="org.postgresql.ssl.NonValidatingFactory" />
+      </driver-properties>
     </data-source>
   </component>
 </project>

@@ -99,10 +99,10 @@ test:
 production:
   adapter: postgresql
 #  database: cse_development
-  database: d6nuqu9qsche6a
-  user: gqkubdukeuxrrj
+  database: dcerlok8j9ggsq
+  user: doffdgmkhlmhpp
 #  username: root
-  password: M4wS2zeT_Q3Sn45ujBiBzOmK3Y
+  password: eZd5XfyHorINfulO9yWIMyZPWj
   encoding: utf8
   pool: 5
 
