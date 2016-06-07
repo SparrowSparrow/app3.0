@@ -19,13 +19,12 @@
 #  password: 1111
 #  socket: /tmp/mysql.sock
 
-#default: &default
-#  adapter: postgresql
-#  encoding: utf8
-#  pool: 5
-#  username: admin
-#  password:
-##  socket: /tmp/mysql.sock
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  pool: 5
+
+#  socket: /tmp/mysql.sock
 
 
 
@@ -83,9 +82,9 @@
 #  encoding: utf8
 #  collation: utf8_unicode_ci
 
-#development:
-#  <<: *default
-#  database: app_development
+development:
+  <<: *default
+  database: app_development
 
 
 
@@ -102,45 +101,45 @@
 #  host: ec2-54-228-219-2.eu-west-1.compute.amazonaws.com
 #  port: 5432
 
-#test:
-#  <<: *default
-#  database: app_test
-#
-#production:
-#  adapter: postgresql
-#    #  database: cse_development
-#  database: dcerlok8j9ggsq
-#  user: doffdgmkhlmhpp
-#    #  username: root
-#  password: eZd5XfyHorINfulO9yWIMyZPWj
-#  encoding: utf8
-#  pool: 5
-#  host: ec2-54-228-219-2.eu-west-1.compute.amazonaws.com
-#  port: 5432
-#  url: <%= ENV['postgres://doffdgmkhlmhpp:eZd5XfyHorINfulO9yWIMyZPWj@ec2-54-228-219-2.eu-west-1.compute.amazonaws.com:5432/dcerlok8j9ggsq'] %>
-#  ssl: true
-#  sslfactory: org.postgresql.ssl.NonValidatingFactory
-
-
-
-
-default: &default
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
-  host: localhost
-
-development:
-  <<: *default
-  database: app_development
-
 test:
   <<: *default
   database: app_test
 
 production:
-  <<: *default
+  adapter: postgresql
+    #  database: cse_development
   database: dcerlok8j9ggsq
+  user: doffdgmkhlmhpp
+    #  username: root
+  password: eZd5XfyHorINfulO9yWIMyZPWj
+  encoding: utf8
+  pool: 5
+  host: ec2-54-228-219-2.eu-west-1.compute.amazonaws.com
+  port: 5432
+  url: <%= ENV['postgres://doffdgmkhlmhpp:eZd5XfyHorINfulO9yWIMyZPWj@ec2-54-228-219-2.eu-west-1.compute.amazonaws.com:5432/dcerlok8j9ggsq'] %>
+  ssl: true
+  sslfactory: org.postgresql.ssl.NonValidatingFactory
+
+
+
+
+#default: &default
+#  adapter: postgresql
+#  encoding: unicode
+#  pool: 5
+#  host: localhost
+#
+#development:
+#  <<: *default
+#  database: app_development
+#
+#test:
+#  <<: *default
+#  database: app_test
+#
+#production:
+#  <<: *default
+#  database: dcerlok8j9ggsq
 
 
 #db2:
