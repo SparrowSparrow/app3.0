@@ -97,10 +97,15 @@ test:
   database: app_test
 
 production:
-  <<: *default
-  database: cse_development
+  adapter: postgresql
+#  database: cse_development
+  database: d6nuqu9qsche6a
+  user: gqkubdukeuxrrj
 #  username: root
-  password:
+  password: M4wS2zeT_Q3Sn45ujBiBzOmK3Y
+  encoding: utf8
+  pool: 5
+
 
 #db2:
 #  development:
