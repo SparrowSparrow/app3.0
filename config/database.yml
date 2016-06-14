@@ -107,18 +107,21 @@ test:
 
 production:
   adapter: postgresql
-    #  database: cse_development
+  <<: *default
+
   database: dcerlok8j9ggsq
-  user: doffdgmkhlmhpp
-    #  username: root
-  password: eZd5XfyHorINfulO9yWIMyZPWj
-  encoding: utf8
-  pool: 5
-  host: ec2-54-228-219-2.eu-west-1.compute.amazonaws.com
-  port: 5432
-  url: <%= ENV['postgres://doffdgmkhlmhpp:eZd5XfyHorINfulO9yWIMyZPWj@ec2-54-228-219-2.eu-west-1.compute.amazonaws.com:5432/dcerlok8j9ggsq'] %>
-  ssl: true
-  sslfactory: org.postgresql.ssl.NonValidatingFactory
+    #  database: cse_development
+#  database: dcerlok8j9ggsq
+#  user: doffdgmkhlmhpp
+#    #  username: root
+#  password: eZd5XfyHorINfulO9yWIMyZPWj
+#  encoding: utf8
+#  pool: 5
+#  host: ec2-54-228-219-2.eu-west-1.compute.amazonaws.com
+#  port: 5432
+#  url: <%= ENV['postgres://doffdgmkhlmhpp:eZd5XfyHorINfulO9yWIMyZPWj@ec2-54-228-219-2.eu-west-1.compute.amazonaws.com:5432/dcerlok8j9ggsq'] %>
+#  ssl: true
+#  sslfactory: org.postgresql.ssl.NonValidatingFactory
 
 
 

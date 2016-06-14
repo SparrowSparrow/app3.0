@@ -24,3 +24,6 @@ User.create!(name:  "Sherlock Holmes",
                activated: true,
                activated_at: Time.now.utc.to_s)
 end
+
+
+

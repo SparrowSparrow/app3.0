@@ -11,10 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160605173947) do
+ActiveRecord::Schema.define(version: 20160613141433) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "connection_speciality_courses", force: :cascade do |t|
+    t.integer  "id_speciality"
+    t.integer  "id_university"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.integer  "weight"
+  end
 
   create_table "connection_university_courses", force: :cascade do |t|
     t.integer  "id_course"
@@ -28,6 +36,13 @@ ActiveRecord::Schema.define(version: 20160605173947) do
     t.string   "course",     limit: 255
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
+  end
+
+  create_table "specialities", force: :cascade do |t|
+    t.integer  "id_speciality"
+    t.string   "speciality"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
   create_table "universities", force: :cascade do |t|
@@ -55,5 +70,13 @@ ActiveRecord::Schema.define(version: 20160605173947) do
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
+
+  create_table "widgets", force: :cascade do |t|
+    t.string   "name"
+    t.text     "description"
+    t.integer  "stock"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

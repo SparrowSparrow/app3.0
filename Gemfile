@@ -48,21 +48,28 @@ gem "rails-erd"
 
 gem "railroady"
 
+gem 'pony'
+
+gem 'heroku'
+
+gem 'puma-heroku'
+
+gem 'thin'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-group :production do
-  gem 'pg', '0.18.4'
-  gem 'rails_12factor'
-end
+gem 'mail'
+
+gem 'pg'
+gem 'rails_12factor'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'pg', '0.18.4'
 end
 
 group :development do

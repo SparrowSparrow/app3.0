@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_speciality: 1
+  id_course: 1
+  weight: 1
+
+two:
+  id_speciality: 1
+  id_course: 1
+  weight: 1

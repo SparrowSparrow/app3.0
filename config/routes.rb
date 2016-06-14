@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'speciality/index'
+
+  get 'speciality/new'
+
+  get 'speciality/edit'
+
+  get 'map_generation/new'
+
+  get 'map_generation/edit'
+
   get 'password_resets/new'
 
   get 'password_resets/edit'
@@ -26,7 +36,9 @@ Rails.application.routes.draw do
   delete 'logout'  => 'sessions#destroy'
 
   get 'study'  => 'study#index'
+  get 'map_generation' => 'map_generation#index'
 
+  resources :map_generation
   resources :users
   resources :study
   resources :account_activations, only: [:edit]

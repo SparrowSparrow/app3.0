@@ -21,7 +21,6 @@
       <default-schemas>app_test.*</default-schemas>
     </data-source>
     <data-source name="Rails app: production" uuid="8693fcce-b292-4903-9f0b-7782821fd63b">
-      <user-password>dfcfdff0dfcedf9fdff2dfccdfd3dfe2dfc5dfd8dfe3dfe4dfccdfdfdfc6dfe5df93dfd3dffddfe3dfe7dfd3dff0dffadffddfc0</user-password>
       <schema-pattern>cse_development.*</schema-pattern>
       <default-schemas>cse_development.*</default-schemas>
     </data-source>
