@@ -1,4 +1,10 @@
-<h3>Create your road map!!</h3>
-<p>Put your courses in "Settings" and press button below.</p>
 
-<button class="btn btn-info">Generate</button>
+<% if !@isMap %>
+    <h3>Create your road map!!</h3>
+    <p>Put your courses in "Settings" and press button below.</p>
+    <%= link_to 'Generate', map_generation_path(:map => '1'), class: "btn btn-info" %>
+<% else %>
+    <%= link_to 'Regenerate', map_generation_path(:map => '1'), class: "btn btn-info" %>
+<% end %>
+
+
