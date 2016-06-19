@@ -29,16 +29,18 @@
     <div>
       <h3>Personal courses</h3>
       <p>If you passed some courses before, please, fill form.</p>
-      <%= form_for(@user) do |f| %>
+      <%= form_for(@connection_user_courses) do |f| %>
           <%= render 'shared/error_messages' %>
 
           <%= f.label :name %>
           <%= f.text_field :name, class: 'form-control' %>
 
-
+          <%= f.check_box :skill , class:'check-box' %>
+          <%= f.label_tag(:skill, "AL") %>
 
              <%= f.submit "Save changes", class: "btn btn-primary" %>
       <% end %>
+
 
     </div>
 

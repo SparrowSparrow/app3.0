@@ -1,6 +1,9 @@
 class User < ActiveRecord::Base
   # establish_connection DB1_CONF
 
+  has_many :connection_user_courses, foreign_key: "id_user"
+  has_many :edu_programs, through: :connection_user_course
+
   attr_accessor :remember_token, :activation_token, :reset_token
   before_save   :downcase_email
   before_create :create_activation_digest

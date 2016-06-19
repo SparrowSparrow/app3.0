@@ -13,7 +13,7 @@
   <h2>Courses</h2>
   <ul class="list-courses-universities">
     <% @skills.each do |skill| %>
-       <li><%= skill.course %> (<%= skill.area %>, <%= skill.weight %>)  </li>
+       <li><%= skill.course %> (<%= skill.area %>, <%= skill.weight %>, <%= skill.id_course%>)  </li>
     <% end %>
 
   </ul>

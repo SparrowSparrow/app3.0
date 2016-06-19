@@ -5,6 +5,12 @@
       <h1>
         <%= @user.name %>
       </h1>
+
+      <% @user_skills.each do |skill| %>
+          <li>
+            <%= skill.course %>
+          </li>
+      <% end %>
     </section>
   </aside>
 </div>

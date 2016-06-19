@@ -9,7 +9,9 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
-    #debugger
+    @user_skills = EduProgram.joins(:connection_user_courses).select('connection_user_courses.*, edu_programs.*').where(:connection_user_courses => {:id_user => params[:id] || 1})
+
+    # debugger
   end
 
   def index
@@ -65,7 +67,7 @@ class UsersController < ApplicationController
 
   def edit
     @user = User.find(params[:id])
-    @courses = EduProgram.find(params[:id])
+    @user_course = EduProgram.find(params[:id])
   end
 
   def destroy
