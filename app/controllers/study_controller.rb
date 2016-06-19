@@ -2,7 +2,7 @@ class StudyController < ApplicationController
 
     def index
       @universities = University.all
-      @edu_programs = EduProgram.joins(:connection_university_courses).where(:connection_university_courses => {:id_course => params[:id] || 1})
+      @edu_programs = EduProgram.joins(:connection_university_courses).where(:connection_university_courses => {:id_university => params[:id] || 1})
       @current_university = University.find(params[:id] || 1)
       # debugger
     end

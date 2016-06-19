@@ -1,2 +1,21 @@
-<h1>Speciality#index</h1>
-<p>Find me in app/views/speciality/index.html.erb</p>
+<div class="col-mid-4">
+  <h3 class="h3-university" >Specialities</h3>
+  <ul class="universities">
+    <% @specialities.each do |speciality| %>
+        <li>
+          <%= link_to speciality.speciality, speciality_path(:id => speciality.id) %>
+        </li>
+    <% end %>
+  </ul>
+</div>
+<div class="col-mid-8 courses-universities">
+
+  <h2>Courses</h2>
+  <ul class="list-courses-universities">
+    <% @skills.each do |skill| %>
+       <li><%= skill.course %> (<%= skill.area %>, <%= skill.weight %>)  </li>
+    <% end %>
+
+  </ul>
+
+</div>

@@ -11,14 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160613141433) do
+ActiveRecord::Schema.define(version: 20160619102751) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "connection_speciality_courses", force: :cascade do |t|
     t.integer  "id_speciality"
-    t.integer  "id_university"
+    t.integer  "id_course"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
     t.integer  "weight"
@@ -29,6 +29,13 @@ ActiveRecord::Schema.define(version: 20160613141433) do
     t.integer  "id_university"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+  end
+
+  create_table "connection_user_courses", force: :cascade do |t|
+    t.integer  "id_user"
+    t.integer  "id_course"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "edu_programs", force: :cascade do |t|

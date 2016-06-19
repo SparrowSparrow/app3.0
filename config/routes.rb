@@ -37,7 +37,9 @@ Rails.application.routes.draw do
 
   get 'study'  => 'study#index'
   get 'map_generation' => 'map_generation#index'
+  get 'speciality' => 'speciality#index'
 
+  resources :speciality
   resources :map_generation
   resources :users
   resources :study

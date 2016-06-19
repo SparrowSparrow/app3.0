@@ -29,7 +29,16 @@
     <div>
       <h3>Personal courses</h3>
       <p>If you passed some courses before, please, fill form.</p>
+      <%= form_for(@user) do |f| %>
+          <%= render 'shared/error_messages' %>
 
+          <%= f.label :name %>
+          <%= f.text_field :name, class: 'form-control' %>
+
+
+
+             <%= f.submit "Save changes", class: "btn btn-primary" %>
+      <% end %>
 
     </div>
 

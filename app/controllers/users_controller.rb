@@ -65,6 +65,7 @@ class UsersController < ApplicationController
 
   def edit
     @user = User.find(params[:id])
+    @courses = EduProgram.find(params[:id])
   end
 
   def destroy
