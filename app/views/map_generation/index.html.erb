@@ -4,6 +4,12 @@
     <p>Put your courses in "Settings" and press button below.</p>
     <%= link_to 'Generate', map_generation_path(:map => '1'), class: "btn btn-info" %>
 <% else %>
+    <h3>Result: <%= @result_speciality.speciality %></h3>
+    <div class="h3" >  <%= @result['prise']  %> % </div>
+    <% @result_courses.each do |skill| %>
+        <li><%= skill.course %> (<%= skill.area %>, <%= skill.weight %>, <%= skill.id_course%>)  </li>
+    <% end %>
+
     <%= link_to 'Regenerate', map_generation_path(:map => '1'), class: "btn btn-info" %>
 <% end %>
 
